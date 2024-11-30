@@ -81,4 +81,4 @@ logging:
 logout:
   url: "{baseUrl}/ttc-tops/"
 login:
-  post_url: "/ttc-tops/"
+  post_url: "http://localhost:5173"
