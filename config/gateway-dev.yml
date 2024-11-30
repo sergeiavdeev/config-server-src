@@ -79,6 +79,6 @@ logging:
     org.springframework.web.reactive: DEBUG
     org.springframework.security: DEBUG
 logout:
-  url: "{baseUrl}/ttc-tops/"
+  url: "http://localhost:5173"
 login:
   post_url: "http://localhost:5173"
