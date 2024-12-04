@@ -10,7 +10,7 @@ spring:
       client:
         provider:
           keycloak:
-            issuer-uri: https://avdeev-sa.ru/keycloak/realms/booking_realm
+            issuer-uri: https://avdeev-sa.ru/keycloak/realms/ttc-tops
             user-name-attribute: preferred_username
         registration:
           keycloak:
