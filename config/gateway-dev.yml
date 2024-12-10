@@ -61,7 +61,7 @@ spring:
       globalcors:
         corsConfigurations:
           '[/**]':
-            allowedOrigins: "*"
+            allowedOrigins: "http://localhost:5173, https://ttc-tops.avdeev-sa.ru"
             allowedHeaders: "*"
             allowedMethods:
             - GET
