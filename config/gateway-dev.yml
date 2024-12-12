@@ -32,14 +32,14 @@ spring:
         - id: resource-service
           uri: lb://resource-service
           predicates:
-            - Path=/api/v1/storage/**, /api/v1/contact-type/**
+            - Path=/api/v1/storage/**, /api/v1/resource/**, /api/v1/contact-type/**
           filters:
             - StripPrefix=1
             - PrefixPath=/
         - id: schedule-service
           uri: lb://schedule-service
           predicates:
-            - Path=/api/v1/work-time,/api/v1/calendar,/api/v1/reserve,/api/v1/order,/api/v1/calendar/**
+            - Path=/api/v1/work-time,/api/v1/calendar,/api/v1/order,/api/v1/calendar/**
           filters:
             - StripPrefix=1
             - PrefixPath=/
