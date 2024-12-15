@@ -62,6 +62,7 @@ spring:
           '[/**]':
             allowedOrigins: "http://localhost:5173"
             allowedHeaders: "*"
+            allow-credentials: true
             allowedMethods:
             - GET
             - POST
