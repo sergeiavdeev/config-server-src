@@ -59,6 +59,7 @@ spring:
               - GET
               - POST
               - PUT
+              - OPTIONS
         add-to-simple-url-handler-mapping: true
 logout:
   url: "https://ttc-tops.ru"
