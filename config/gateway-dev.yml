@@ -23,7 +23,7 @@ spring:
       default-filters:
         - TokenRelay=
         - RemoveRequestHeader=Cookie
-        - AddResponseHeader=Access-Control-Allow-Credentials, true
+        - DedupeResponseHeader=Access-Control-Allow-Credentials Access-Control-Allow-Origin Access-Control-Allow-Headers Access-Control-Allow-Methods
       discovery:
         locator:
           enabled: false
