@@ -75,10 +75,6 @@ management:
     web:
       exposure:
         include: "health,info,gateway"
-logging:
-  level:
-    org.springframework.web.reactive: DEBUG
-    org.springframework.security: DEBUG
 logout:
   url: "http://localhost:5173"
 login:
