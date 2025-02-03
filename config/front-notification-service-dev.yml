@@ -12,8 +12,8 @@ queues:
   frontIn: front.in
   telegramIn: telegram.in
 bot:
-  token: 7487503506:AAHs3DkvFz_8uzo8mY_XWSUEv5s-6io4qGc
-  name: Cnttops_bot
+  token: '{cipher}d11d321f52022df06822937b580507b414f062406a89679be65c0459d28a1b03b0dc1e486b611932cbc5af553df2a53e143695ca51ced84001d39e80883ae51b'
+  name: '{cipher}813e4b721569e66ef30879d610021d05c89c910f36324a0c3c6c506292c7ebe2'
   receivers:
     - 1345063137
     - 267239507
