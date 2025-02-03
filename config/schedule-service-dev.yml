@@ -23,8 +23,8 @@ spring:
     password: '{cipher}5f697e69b202139460ef1ed466ad1e8112845baeda1c278883b8a131752da8f8'
   rabbitmq:
     host: rabbitmq
-    username: avdey
-    password: 61Ifhjukjn$
+    username: '{cipher}f3b6b67a0ba5cb4d0c2d007532078e9d66c2b523775c5e8ab691a348c17bf076'
+    password: '{cipher}41b8a6863bac6d15e7f212230b48dbb06ee877556dde480344aa4dacc24026a8'
 gateway:
   url: http://localhost:8083
 logging:
@@ -35,5 +35,5 @@ keycloak:
   uri: https://avdeev-sa.ru/keycloak
   realm: ttc-tops
   username: admin
-  password: 61Ifhjukjn
-  clientId: admin-cli
+  username: '{cipher}68172b6dcfd161ed6a2c6b0950d409397a4eda84e08f6b247f50db920ef9d9db'
+  password: '{cipher}4b43e3dc618e285e078361c3b2343e9d55fbcbf4660af0ba7a4acaff74c1899f'
