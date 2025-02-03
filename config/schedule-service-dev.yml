@@ -21,9 +21,19 @@ spring:
     url: jdbc:postgresql://192.168.0.250:5432/booking
     user: schedule
     password: '{cipher}5f697e69b202139460ef1ed466ad1e8112845baeda1c278883b8a131752da8f8'
+  rabbitmq:
+    host: rabbitmq
+    username: avdey
+    password: 61Ifhjukjn$
 gateway:
   url: http://localhost:8083
 logging:
   level:
     io.r2dbc.postgresql.QUERY: DEBUG
     io.r2dbc.postgresql.PARAM: DEBUG
+keycloak:
+  uri: https://avdeev-sa.ru/keycloak
+  realm: ttc-tops
+  username: admin
+  password: 61Ifhjukjn
+  clientId: admin-cli
