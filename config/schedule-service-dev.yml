@@ -34,6 +34,5 @@ logging:
 keycloak:
   uri: https://avdeev-sa.ru/keycloak
   realm: ttc-tops
-  username: admin
   username: '{cipher}68172b6dcfd161ed6a2c6b0950d409397a4eda84e08f6b247f50db920ef9d9db'
   password: '{cipher}4b43e3dc618e285e078361c3b2343e9d55fbcbf4660af0ba7a4acaff74c1899f'
