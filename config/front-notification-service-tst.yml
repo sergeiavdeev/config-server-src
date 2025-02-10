@@ -16,3 +16,4 @@ bot:
   name: '{cipher}1aa8b18deaedbd42b8316c5e7f391c21f4d41b6a45e53b0b6d8d61808fcb5d8c'
   receivers:
     - '{cipher}4447e68c1745df50b3e5e00ff8067e898dabf8d6f69784e16092d8b6e619c3dd'
+    - '{cipher}f4732b1a86cb988913a87b032bc3af8897a2e5ed346799a4875c634010df31ce'
