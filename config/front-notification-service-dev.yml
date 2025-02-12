@@ -8,6 +8,10 @@ spring:
       transport: websocket
       mapping-path: /rsocket
       port: 8086
+      ssl:
+        enabled: true
+        certificate: www_ttc-tops_ru.crt
+        certificate-private-key: 14776967.key
 queues:
   frontIn: front.in
   telegramIn: telegram.in
