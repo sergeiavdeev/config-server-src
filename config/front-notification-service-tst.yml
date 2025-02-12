@@ -10,8 +10,8 @@ spring:
       port: 8086
       ssl:
         enabled: true
-        certificate: classpath:www_ttc-tops_ru.crt
-        certificate-private-key: classpath:14776967.key
+        certificate: www_ttc-tops_ru.crt
+        certificate-private-key: 14776967.key
 queues:
   frontIn: front.in
   telegramIn: telegram.in
