@@ -23,3 +23,8 @@ bot:
   receivers:
     - 1345063137
     - 267239507
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
