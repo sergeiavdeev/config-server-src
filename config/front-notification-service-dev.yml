@@ -8,6 +8,12 @@ spring:
       transport: websocket
       mapping-path: /rsocket
       port: 8086
+  boot:
+    admin:
+      client:
+        url: http://localhost:8085
+        instance:
+          service-host-type: IP
 queues:
   frontIn: front.in
   telegramIn: telegram.in
