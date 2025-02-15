@@ -1,0 +1,39 @@
+server:
+  port: 0
+spring:
+  r2dbc:
+    url: r2dbc:postgresql://192.168.0.250:5432/booking_tst
+    name: postgresql
+    username: order
+    password: '{cipher}5f697e69b202139460ef1ed466ad1e8112845baeda1c278883b8a131752da8f8'
+    schema: "order"
+    repositories:
+      enabled: true
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: https://avdeev-sa.ru/keycloak/realms/ttc-tops
+          jwk-set-uri: https://avdeev-sa.ru/keycloak/realms/ttc-tops/protocol/openid-connect/certs
+  flyway:
+    enabled: true
+    locations: classpath:db/migration
+    url: jdbc:postgresql://192.168.0.250:5432/booking_tst
+    user: postgres
+    password: '{cipher}5cddcc37daa0524fa29e302379e1431f991180097b7c593ec0ba51470860dd1b'
+  rabbitmq:
+    host: rabbitmq
+    username: '{cipher}f3b6b67a0ba5cb4d0c2d007532078e9d66c2b523775c5e8ab691a348c17bf076'
+    password: '{cipher}41b8a6863bac6d15e7f212230b48dbb06ee877556dde480344aa4dacc24026a8'
+gateway:
+  url: http://localhost:8083
+logging:
+  level:
+    io.r2dbc.postgresql.QUERY: DEBUG
+    io.r2dbc.postgresql.PARAM: DEBUG
+keycloak:
+  uri: https://avdeev-sa.ru/keycloak
+  realm: ttc-tops
+  username: '{cipher}68172b6dcfd161ed6a2c6b0950d409397a4eda84e08f6b247f50db920ef9d9db'
+  password: '{cipher}4b43e3dc618e285e078361c3b2343e9d55fbcbf4660af0ba7a4acaff74c1899f'
+  clientId: admin-cli
