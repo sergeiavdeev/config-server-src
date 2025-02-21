@@ -74,7 +74,7 @@ management:
     enabled-by-default: true
     web:
       exposure:
-        include: "health,info,gateway"
+        include: "*"
 logout:
   url: "http://localhost:5173"
 login:

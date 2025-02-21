@@ -65,3 +65,8 @@ logout:
   url: "https://ttc-tops.avdeev-sa.ru"
 login:
   post_url: "https://ttc-tops.avdeev-sa.ru/"
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'

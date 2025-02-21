@@ -41,3 +41,8 @@ keycloak:
 queue:
   order:
     in: order.in
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'

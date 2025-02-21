@@ -21,3 +21,8 @@ bot:
   receivers:
     - '{cipher}4447e68c1745df50b3e5e00ff8067e898dabf8d6f69784e16092d8b6e619c3dd'
     - '{cipher}f4732b1a86cb988913a87b032bc3af8897a2e5ed346799a4875c634010df31ce'
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'

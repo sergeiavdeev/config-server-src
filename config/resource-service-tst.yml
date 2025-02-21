@@ -23,22 +23,9 @@ spring:
     password: '{cipher}eb56138ad5beb09bef691268bd396082251b65a51e1bc81b90d2da3532fd7aea'
 management:
   endpoints:
-    enabled-by-default: false
     web:
       exposure:
-        include: "health,info"
-  endpoint:
-    info:
-      enabled: true
-    health:
-      enabled: true
-      show-details: "always"
-  info:
-    java:
-      enabled: true
-  health:
-    circuitbreakers:
-      enabled: true
+        include: '*'
 resilience4j.circuitbreaker:
   configs:
     default:

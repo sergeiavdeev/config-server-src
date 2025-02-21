@@ -65,3 +65,8 @@ logout:
   url: "https://ttc-tops.ru"
 login:
   post_url: "https://ttc-tops.ru"
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
