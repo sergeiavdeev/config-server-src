@@ -1,0 +1,25 @@
+server:
+  port: 8085
+spring:
+  application:
+    name: admin-service
+  boot:
+    admin:
+      discovery:
+        ignored-services: admin-service
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: https://avdeev-sa.ru/keycloak/realms/ttc-tops
+      client:
+        provider:
+          keycloak:
+            issuer-uri: https://avdeev-sa.ru/keycloak/realms/ttc-tops
+            user-name-attribute: preferred_username
+        registration:
+          keycloak:
+            provider: keycloak
+            client-id: admin-server-client
+            client-secret: '{cipher}8981b6e3ef7b44eae3ad36f7550e88a54b8709ef1f7b6ca4d015942e72653f3ce1a79030a1d7ab90d419789e9377620c21370ded888ab0254616d64beca9119f'
+            scope: openid
