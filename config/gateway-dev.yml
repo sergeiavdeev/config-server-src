@@ -16,7 +16,7 @@ spring:
           keycloak:
             provider: keycloak
             client-id: dev-ttc-tops
-            client-secret: '{cipher}878712b1da2988529855ad3d93671d350de72f4cff05a8a160ea684ac7f8f2b5ebe569546e613f742be00980a63c66cb5aea8ceffd6e869724c5a328de3a0d2f'
+            client-secret: '{cipher}78696b9105893a04e1ceb6b9271a08adf0f4e36ae646aa180f248bae626f6d1e09d97f2b5897d599e1fc5d94dfe47f297efc7c44d8ac614840387ae6ef7df5ea'
             scope: openid,email
   cloud:
     gateway:
