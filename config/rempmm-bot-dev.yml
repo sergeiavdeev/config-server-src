@@ -6,3 +6,8 @@ bot:
   receivers:
     - '{cipher}956ee2a6a596b83229167c4601c1739e57b7af3dd16ecaf123f78d485fbffd72'
     - '{cipher}dc4b512c83058dc247112d3ad297b46b7013fc958b7e21d00dae1a8311d82a78'
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
