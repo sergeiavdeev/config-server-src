@@ -7,6 +7,8 @@ spring:
     admin:
       discovery:
         ignored-services: admin-service
+      ui:
+        public-url: https://admin.avdeev-sa.ru
   security:
     oauth2:
       resourceserver:
