@@ -1,6 +1,7 @@
 spring:
   rabbitmq:
     host: rabbit
+    port: 5672
     username: '{cipher}f3b6b67a0ba5cb4d0c2d007532078e9d66c2b523775c5e8ab691a348c17bf076'
     password: '{cipher}41b8a6863bac6d15e7f212230b48dbb06ee877556dde480344aa4dacc24026a8'
   rsocket:
@@ -8,12 +9,6 @@ spring:
       transport: websocket
       mapping-path: /rsocket
       port: 8086
-  boot:
-    admin:
-      client:
-        url: http://localhost:8085
-        instance:
-          service-host-type: IP
 queues:
   frontIn: front.in
   telegramIn: telegram.in
