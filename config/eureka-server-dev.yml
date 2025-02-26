@@ -1,14 +1,6 @@
 spring:
   application:
     name: eureka-server
-server:
-  port: 8761
-eureka:
-  client:
-    register-with-eureka: false
-    fetch-registry: false
-  server:
-    renewal-percent-threshold: 0.85
   security:
     oauth2:
       resourceserver:
@@ -25,3 +17,11 @@ eureka:
             client-id: admin-server-client
             client-secret: '{cipher}8981b6e3ef7b44eae3ad36f7550e88a54b8709ef1f7b6ca4d015942e72653f3ce1a79030a1d7ab90d419789e9377620c21370ded888ab0254616d64beca9119f'
             scope: openid
+server:
+  port: 8761
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+  server:
+    renewal-percent-threshold: 0.85
