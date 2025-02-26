@@ -74,6 +74,7 @@ login:
   post_url: "https://ttc-tops.avdeev-sa.ru/"
 management:
   endpoints:
+    enabled-by-default: true
     web:
       exposure:
-        include: '*'
+        include: "*"
