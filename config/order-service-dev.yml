@@ -32,6 +32,7 @@ logging:
   level:
     io.r2dbc.postgresql.QUERY: DEBUG
     io.r2dbc.postgresql.PARAM: DEBUG
+    org.springframework.security.config.web.server.ServerHttpSecurity: DEBUG
 keycloak:
   uri: https://avdeev-sa.ru/keycloak
   realm: ttc-tops
@@ -46,3 +47,4 @@ management:
     web:
       exposure:
         include: '*'
+
