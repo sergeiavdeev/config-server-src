@@ -46,7 +46,7 @@ spring:
         - id: order-service
           uri: lb://order-service
           predicates:
-            - Path=/api/v2/order, /api/v2/order/**
+            - Path=/api/v2/order,/api/v2/order/**,/api/v2/tariff
           filters:
             - StripPrefix=2
             - PrefixPath=/v1/
