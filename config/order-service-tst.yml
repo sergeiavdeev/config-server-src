@@ -19,6 +19,7 @@ spring:
     enabled: true
     locations: classpath:db/migration
     url: jdbc:postgresql://10.8.0.2:5432/booking
+    schema: "order"
     user: order
     password: '{cipher}3ec6b18a77508bc0fc8c7fd4e3a9b06c7f04db81a1ba9f572db79c61d36e3b73'
   rabbitmq:
