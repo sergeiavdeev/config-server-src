@@ -23,6 +23,7 @@ spring:
     password: '{cipher}3ec6b18a77508bc0fc8c7fd4e3a9b06c7f04db81a1ba9f572db79c61d36e3b73'
   rabbitmq:
     host: 89.150.35.97
+    port: 5672
     username: '{cipher}f3b6b67a0ba5cb4d0c2d007532078e9d66c2b523775c5e8ab691a348c17bf076'
     password: '{cipher}41b8a6863bac6d15e7f212230b48dbb06ee877556dde480344aa4dacc24026a8'
 gateway:
