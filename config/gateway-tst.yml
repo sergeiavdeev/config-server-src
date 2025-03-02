@@ -16,7 +16,7 @@ spring:
           keycloak:
             provider: keycloak
             client-id: tst-ttc-tops
-            client-secret: '{cipher}878712b1da2988529855ad3d93671d350de72f4cff05a8a160ea684ac7f8f2b5ebe569546e613f742be00980a63c66cb5aea8ceffd6e869724c5a328de3a0d2f'
+            client-secret: '{cipher}a873153f68f958620fada9c9c9b293931eac3dc5077a71b05a8339b3bdf7efa03f4db73e0cacb1daee673468c8e00161685d692b1d23509b8031afb44bec27be'
             scope: openid,email
             redirect-uri: 'https://ttc-tops.avdeev-sa.ru/login/oauth2/code/{registrationId}'
   cloud:
