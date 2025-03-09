@@ -73,6 +73,8 @@ spring:
             allowedMethods:
             - GET
             - POST
+            - DELETE
+            - PATCH
             - PUT
             - OPTIONS
         add-to-simple-url-handler-mapping: true
